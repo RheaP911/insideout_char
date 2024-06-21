@@ -118,6 +118,7 @@ body {
     margin-bottom: 1rem;
     font-family: var(--luckiest-guy);
     letter-spacing: 2px;
+    font-size: 40px;
 }
 
 .main-container .image-preview:hover .overlay .desc {
