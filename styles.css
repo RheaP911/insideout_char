@@ -39,6 +39,7 @@
     --green: #00A501;
     --green-disgust: #BAFAD7; 
     --green-text: #00742B;
+    --purple: #7B0597;
 }
 
 html {
@@ -119,6 +120,7 @@ body {
     font-family: var(--luckiest-guy);
     letter-spacing: 2px;
     font-size: 40px;
+    text-shadow: -1.5px -1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, 1.5px 1.5px 0 #fff;
 }
 
 .main-container .image-preview:hover .overlay .desc {
@@ -141,6 +143,25 @@ body {
     display: block;
 }
 
+.joy-name {
+    color: var(--yellow);
+}
+
+.sadness-name {
+    color: var(--blue);
+}
+
+.anger-name {
+    color: var(--red);
+}
+
+.disgust-name {
+    color: var(--green);
+}
+
+.fear-name {
+    color: var(--purple);
+}
 
 @media (max-width: 435px) {
     .main-container{
