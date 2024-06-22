@@ -169,7 +169,7 @@ body {
     }
 
     .main-container .image-preview {
-        flex: 2;
+        flex: 2.5;
     }
 
     .main-container .image-preview:hover {
