@@ -173,7 +173,7 @@ body {
     }
 
     .main-container .image-preview:hover {
-        flex: 25;
+        flex: 10;
     }
 
     .main-container .image-preview .overlay .desc {
