@@ -169,11 +169,11 @@ body {
     }
 
     .main-container .image-preview {
-        flex: 1;
+        flex: 2;
     }
 
     .main-container .image-preview:hover {
-        flex: 8;
+        flex: 10;
     }
 
     .main-container .image-preview .overlay .desc {
